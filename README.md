@@ -89,3 +89,19 @@ A **reward vs episode plot** is generated after training to visualize learning p
 ### 1. Activate the virtual environment
 ```bash
 venv\Scripts\activate
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Train the agent
+```bash
+python train.py
+```
+### 3.Evaluate the trained agent
+```bash
+python evaluate.py
+```
+
